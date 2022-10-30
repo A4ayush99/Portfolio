@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #F7EDE7;
+
+}
+:root {
+    --primary-color : #D8F124;
+    --offwhite-color :#BABBB4;
+    --secondary-color:#EAF5A7;
+} 
+
+.nav-container{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.list-nonbullet{
+    text-align: right;
+    list-style: none;
+    font-size: 1.2rem;
+}
+.list-inline{
+    display: inline;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+}
+.link:hover{
+    color: black;
+}
+
+.list-active{
+    font-weight: bold;
+}
+
+.head{
+    padding-top: 3rem;
+    height: 435px;
+    background-color: var(--secondary-color);
+    width: 90%;
+    margin: 1rem auto;
+    border-radius: 1rem;
+}
+.head .dev-img{
+    display: block;
+    margin: auto;
+    width: 370px;
+}
+
+.align-center{
+    text-align: center;
+}
+.highlight{
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.tech-section{
+    background-color: var(--offwhite-color);
+    width: 90%;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+}
+
+.project-section{
+    background-color: #EAF5A7;
+    width: 90%;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+}
+.project-img{
+    height: 325px;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.link-secondary{
+    margin: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid white;
+    color: var(--offwhite-color);
+    background-color: #fff;
+}
+
+.blog-section{
+    background-color: var(--offwhite-color);
+    width: 90%;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+}
+
+footer{
+    height: 6rem;
+    background-color: var(--primary-color);
+}
+footer > ul >li >a {
+    text-decoration: none;
+    color: black;
+}

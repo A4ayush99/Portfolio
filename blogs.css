@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #F7EDE7;
+
+}
+:root {
+    --primary-color : #D8F124;
+    --gray-color : #BABBB4;
+    --secondary-color:#EAF5A7;
+} 
+
+.nav-container{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.list-nonbullet{
+    text-align: right;
+    list-style: none;
+    font-size: 1.2rem;
+}
+.list-inline{
+    display: inline;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+}
+.link:hover{
+    color: black;
+}
+
+.list-active{
+    font-weight: bold;
+}
+
+#heading{
+    margin-left: 42%;
+}
+.container{
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    border-radius: 10px;
+    margin-top:4rem;
+    box-shadow: 10px 8px 7px 8px #947075;
+    height: 240px;
+    padding-top: 0.5rem;
+}
+
+.big{
+    height: 330px;
+}
+.background-light{
+    background-color: var(--secondary-color);
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 2rem;
+    border: 1px var(--primary-color);
+    padding: 0.6rem 1.2rem;
+}
+
+.background-dark{
+    background-color: var(--gray-color);
+}
+
+.link-secondary{
+    margin: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid white;
+    color: var(--gray-color);
+    background-color: white;
+}
+
+
+.container > a{
+    margin-top: 0.5rem;
+}
+.small{
+    font-size: small;
+}
+.blog-para{
+    margin-bottom: 2rem;
+
+}
+
+footer{
+    height: 6rem;
+    margin-top: 3rem;
+    background-color: var(--primary-color);
+}
+
+footer > ul >li >a {
+    text-decoration: none;
+    color: black;
+}
+ 
